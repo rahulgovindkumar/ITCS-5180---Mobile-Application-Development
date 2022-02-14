@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Tip Calculator</string>
+    <string name="textView_BillTotal">Bill Total:</string>
+    <string name="editableText_BillTotal">Enter Bill Total</string>
+
+    <string name="radioButtonTextView_Tip">Tip%:</string>
+    <string name="radioOption_Tip10">10%</string>
+    <string name="radioOption_Tip15">15%</string>
+    <string name="radioOption_Tip18">18%</string>
+    <string name="radioOption_TipCustom">Custom</string>
+
+    <string name="seekTextView_TipCustom">Custom:</string>
+    <string name="seekTextView_InitialTip">40%</string>
+
+    <string name="TextView_TipAmount">Tip:</string>
+    <string name="TextView_InitialAmount">$0.0</string>
+    <string name="TextView_Amount">Total:</string>
+
+
+    <string name="radioButtonTextView_Split">Split By:</string>
+    <string name="radioOption_Split1">One</string>
+    <string name="radioOption_Split2">Two</string>
+    <string name="radioOption_Split3">Three</string>
+    <string name="radioOption_Split4">Four</string>
+
+    <string name="TextView_TotalAmountPerPerson">Total/Person:</string>
+
+    <string name="button_Clear">Clear</string>
+
+    <string name="error_Message">Please Enter a Valid Number - </string>
+
+
+
+</resources>
