@@ -11,7 +11,7 @@
     <string name="Login">Login</string>
     <string name="forum_title">Forum Title</string>
     <string name="forum_description">Forum Description</string>
-    <string name="google_maps_key">AIzaSyBpT04lF_RHZ4eCVnWXaXJm6YrjuDDeYg4</string>
+    <string name="google_maps_key"></string>
 
     <string name="full_name">Full Name</string>
     <string name="enter_password">Enter Password</string>
