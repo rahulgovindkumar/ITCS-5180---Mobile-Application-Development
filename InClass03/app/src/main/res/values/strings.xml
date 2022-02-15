@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Group24_InClass03</string>
+
+    <string name="textview_Name">Name:</string>
+    <string name="editableTextView_Name">Enter Name</string>
+
+    <string name="textview_Email">Email:</string>
+    <string name="editableTextView_Email">Enter Email</string>
+
+    <string name="textview_ID">ID:</string>
+    <string name="editableTextView_ID">Enter ID</string>
+
+    <string name="textview_Dept">Dept:</string>
+    <string name="textView_DeptChoice">Enter ID</string>
+
+    <string name="button_Select">Select</string>
+    <string name="button_Submit">Submit</string>
+    <string name="button_Cancel">Cancel</string>
+
+    <string name="radioOption_ComputerScience">Computer Science</string>
+    <string name="radioOption_SoftwareInfoSystems">Software Info. Systems</string>
+    <string name="radioOption_BioInformatics">Bio Informatics</string>
+    <string name="radioOption_DataScience">Data Science</string>
+
+    <string name="error_Message">Please Enter the Required Information. </string>
+    <string name="error_MessageEmail">Invalid Email Format. </string>
+</resources>
