@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Class04_FragmentsRegistration</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="errorValidation_Name">Please enter a valid Name!</string>
+    <string name="errorValidation_Email">Please enter a valid Email address!</string>
+    <string name="updateTitle">Update Account</string>
+    <string name="LoginTitle">Login</string>
+    <string name="AccountTitle">Account</string>
+    <string name="RegisterTitle">Register</string>
+    <string name="errorMessageIlistner">Must implement IListener!</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="submit">Submit</string>
+    <string name="cancel">Cancel</string>
+    <string name="welcome">Welcome !!</string>
+    <string name="textview">TextView</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="log_out">Log Out</string>
+    <string name="errorEmailvalidation">Please enter Valid EmaiID format</string>
+
+</resources>
