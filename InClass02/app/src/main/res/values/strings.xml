@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Group27_InClass02</string>
+    <string name="ticket_price">Ticket Price:</string>
+
+    <string name="user_input">Enter Ticket Price</string>
+    <string name="label_Discount">Discount:</string>
+    <string name="radioButton_Option1">5%</string>
+    <string name="radioButton_Option2">10%</string>
+    <string name="radioButton_Option3">15%</string>
+    <string name="radioButton_Option4">20%</string>
+    <string name="radioButton_Option5">50%</string>
+
+    <string name="label_DiscountPrice">Discounted Price:</string>
+
+
+    <string name="button_Calculate">Calculate</string>
+
+    <string name="button_Clear">Clear</string>
+
+
+
+
+
+
+</resources>

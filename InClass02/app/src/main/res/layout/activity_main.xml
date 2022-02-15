@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#00FFEB3B"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView_TicketPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="@string/ticket_price"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.050000012" />
+
+    <EditText
+        android:id="@+id/editTextText_TicketPrice"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="20dp"
+        android:ems="10"
+        android:hint="@string/user_input"
+        android:inputType="number"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.576"
+        app:layout_constraintStart_toEndOf="@+id/textView_TicketPrice"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_Discount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/label_Discount"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText_TicketPrice" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup_Discount"
+        android:layout_width="195dp"
+        android:layout_height="240dp"
+        app:layout_constraintStart_toEndOf="@+id/textView_Discount"
+        app:layout_constraintTop_toTopOf="@+id/textView_Discount">
+
+        <RadioButton
+            android:id="@+id/radioButton_Option1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/radioButton_Option1" />
+
+        <RadioButton
+            android:id="@+id/radioButton_Option2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/radioButton_Option2" />
+
+        <RadioButton
+            android:id="@+id/radioButton_Option3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/radioButton_Option3" />
+
+        <RadioButton
+            android:id="@+id/radioButton_Option4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/radioButton_Option4" />
+
+        <RadioButton
+            android:id="@+id/radioButton_Option5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/radioButton_Option5" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView_DiscountedPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/label_DiscountPrice"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup_Discount" />
+
+    <Button
+        android:id="@+id/button_Calculate"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="#C3C1C1"
+        android:text="@string/button_Calculate"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_DiscountedPrice" />
+
+    <TextView
+        android:id="@+id/textView_Result"
+        android:layout_width="61dp"
+        android:layout_height="17dp"
+        android:layout_marginStart="24dp"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toEndOf="@+id/textView_DiscountedPrice"
+        app:layout_constraintTop_toTopOf="@+id/textView_DiscountedPrice" />
+
+    <Button
+        android:id="@+id/button_Clear"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#00783636"
+        android:foregroundTint="#00FFFFFF"
+        android:text="@string/button_Clear"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="@+id/button_Calculate"
+        app:layout_constraintTop_toBottomOf="@+id/button_Calculate" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
