@@ -57,7 +57,7 @@ public class CurrentWeatherFragment extends Fragment {
         OkHttpClient client = new OkHttpClient().newBuilder()
                 .build();
         Request request = new Request.Builder()
-                .url("https://api.openweathermap.org/data/2.5/weather?q="+city.toString()+"&appid=04ca163b509dc657d281ebeded59288a&units=imperial")
+                .url("https://api.openweathermap.org/data/2.5/weather?q="+city.toString()+getString(R.string.token))
                 .method("GET", null)
                 .build();
         client.newCall(request).enqueue(new Callback() {
